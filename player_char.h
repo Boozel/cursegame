@@ -24,7 +24,8 @@ Player::Player()
 void Player::UpdatePlayer(void)
 {
    int action = actionb.GetNextMove();
-   
+   mvprintw(y,x, " ");
+
    switch(action)
    {
       case KEY_UP:
